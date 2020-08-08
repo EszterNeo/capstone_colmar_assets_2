@@ -1,0 +1,291 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    padding:0px;
+    color: rgb(83, 82, 82);
+    
+   }
+   
+   header nav ul{
+    display: flex;
+    
+   }
+    
+   header li{
+     
+     list-style: none;
+     justify-content: space-between;
+     margin: 0;
+     padding: 0;
+     height: 64px;
+     align-items: center;
+     list-style-type: none;
+       
+   }
+   
+   .header span{
+     font-weight: bold;
+   }
+   
+    span{
+     
+     color: rgb(104, 104, 104)
+     
+   }
+   
+   @media only screen and (min-width:768px) { 
+    header ul li {
+       display: flex;
+       padding-left: 24px;
+       padding-right: 24px;
+       justify-content: space-between; 
+     }
+   }
+   
+        
+   
+    /*banner*/
+   .banner{
+     background-color: #dedede;
+     width: 768px;
+     display: flex;
+     margin-right: 32px;
+     box-sizing: border-box;
+     padding:32px 24px 32px 32px ;
+     
+
+    }
+
+    .banner li{
+      list-style: none;
+    
+      
+    }
+
+    .banner ul{
+      margin:0px;
+      padding: 0px;
+      
+      
+    }
+    
+  .banner .img-banner{
+       
+     background-repeat: no-repeat;
+     background-position: center;
+     margin: 0;
+     border:0;
+     display: flex;
+     width:100%;
+       
+   }
+      
+   .banner li h1{
+    
+    
+     margin-left: 24px;
+     display: inline;
+   }
+   
+   h3{
+     margin-left: 24px;
+     margin-bottom: 24px;
+     
+   }
+   
+
+       
+  
+   
+   .banner button{
+     color: white;
+     background-color: rgb(104, 104, 104);
+     border: none;
+     padding: 20px 300px;
+     font-size: 30px;
+     margin: 32px;
+   }
+       
+       
+   .center-content{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+     }
+   
+   /*article*/                    
+   
+   .card:hover{
+     background-color: #d5d7db; 
+   }
+
+   .card{
+    display:flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .card60 h1 p {
+    width:60%
+    
+  }
+
+  .card60 img{
+    width:60%
+    
+    
+    
+
+  }
+
+  .card .card40 {
+    width: 40%;
+    margin: 16px 16px 16px 16px;
+    padding-top: 16px;
+
+  }
+
+  @media only screen and(max-width: 768px){
+    .card {
+      flex-direction: column;
+
+    }
+  
+  }
+
+   
+   /*start learning*/
+   
+  ul .card-box .card-2{
+      margin: 0;
+      padding: 0;
+   }
+
+  section{
+    background-color: #dedede;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 32px 32px 72px 32px;
+    
+  }
+  
+  .section-title{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #dedede;
+    
+  }
+
+  .card-box {
+    background-color: #dedede;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+    
+    
+
+
+  @media only screen and(max-width: 768px){
+    .card-box .card-2 h3{
+      display: flex;
+      flex-direction: column;
+   
+    }
+  }
+  
+  @media only screen and(max-width: 768){
+    .card-2{
+       flex-direction: column;
+    }
+
+  }
+   
+ 
+   .card-2{
+     background-color: #dedede;
+     list-style-type: none;
+     width: 33%;
+     background-color: white;
+     box-sizing: border-box;
+     }
+   
+   .card-2 img{
+     height: auto;
+     width:100%;
+     padding:0;
+   }
+
+
+   
+   .card-text a h3 {
+     margin:0;
+     padding: 0;
+     
+   }
+   
+   
+   
+   .card-2 .uppercase{
+     text-transform: uppercase;
+   }
+   
+  
+   
+   a:link, a:visited  {
+     text-decoration: none;
+     color: black;
+   }
+   
+   @media only screen and (max-width:768px) {
+     .mobile-hidden {
+       display: none;
+     }
+   
+   }
+   
+   @media only screen and (max-width:768px) {
+     .uppercase{
+       display: none;
+      
+     }
+   
+   }
+   
+   /* Thesis exibiths */
+   
+   
+   .flex-theses {
+     display: flex;
+     
+   }
+
+
+   video {
+     width: 60%;
+   }
+
+   .card-content{
+     margin-left:24px;
+     height: 40%;
+     background-color: #dedede;
+     flex-direction: row;
+     
+   }
+   
+   .card .mobile-hidden{
+     flex-direction: row;
+   }
+
+/*footer*/
+
+
+.footer-content a .mobile-hidden{
+  flex-direction: row;
+  margin-left: 16px;
+}
+ 
